@@ -1,7 +1,7 @@
 // src/config/migration.config.ts
 
 import { DataSource } from 'typeorm';
-import { databaseConfig } from '../database.config';
+import { databaseConfig } from './database.config';
 
 export default new DataSource({
   ...databaseConfig,
